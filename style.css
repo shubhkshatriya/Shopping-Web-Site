@@ -32,6 +32,12 @@ h5{
 h6{
     color: #D8D8D8;
 }
+hr{
+    width: 30px;
+    height: 2px;
+    background-color: #fb774b;
+
+}
 
 button{
     font-size: 0.8rem;
@@ -197,4 +203,33 @@ button:hover{
     text-align: end;
 }
 
+.product{
+    cursor: pointer;
+    margin-bottom: 2rem;
+}
 
+.product img{
+    transition: 0.3s all;
+    width: 100%;
+}
+
+.product:hover{
+    opacity: 0.7;
+}
+
+.product .buy-btn{
+    background: #fb774b;
+    transform: translateY(20px);
+    opacity: 0;
+    transition: 0.3s all;
+}
+
+.product:hover .buy-btn{
+    transform: translateY(0);
+    opacity: 1;
+}
+
+.star{
+    font-size: 0.8rem;
+    color: goldenrod;
+}
